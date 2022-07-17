@@ -1,0 +1,75 @@
+
+body{
+    display: flex;
+}
+
+.text{
+    background-color: #131321;
+    width: 50vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2.5px;
+}
+
+.watch{
+    width: 50vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name{
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#time, #clock, #day{
+    color: white
+}
+
+.outer-boundary{
+    width: 200px;
+    height: 280px;
+    background-color: #3B3B3B;
+    border-radius: 50px;
+}
+
+.inner-boundary{
+    width: 200px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.images a{
+    color: white;
+    font-size: 20px;
+}
+
+#time{
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+#day{
+    margin: 8px 0 52px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#clock{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
